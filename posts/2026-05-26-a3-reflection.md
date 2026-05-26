@@ -2,7 +2,7 @@
 title: "A3 Reflection: Looking Back at My Goal-Oriented Feedback Hub"
 date: "2026-05-26"
 author: "Arina"
-description: "This post evaluates the final prototype, reflects on technical performance, user experience, accessibility, functional requirements, and future improvements."
+summary: "This post evaluates the final prototype, reflects on technical performance, user experience, accessibility, functional requirements, and future improvements."
 tags:
   - evaluation
   - reflection
