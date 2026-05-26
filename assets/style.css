@@ -64,38 +64,33 @@ ul.post-list{
 
 /* Evidence images inside blog posts */
 
-article p:has(img),
-main p:has(img),
-.content p:has(img),
-.post p:has(img) {
-  text-align: center !important;
+* {
+  box-sizing: border-box;
 }
 
-article img,
-main img,
-.content img,
-.post img,
-p img {
-  display: block !important;
-  width: auto !important;
-  max-width: 720px !important;
-  height: auto !important;
-  max-height: 520px !important;
-  margin: 24px auto !important;
-  border-radius: 12px !important;
-  border: 1px solid #444 !important;
-  object-fit: contain !important;
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
-@media (max-width: 820px) {
-  article img,
-  main img,
-  .content img,
-  .post img,
-  p img {
-    width: 100% !important;
-    max-width: 100% !important;
-    max-height: none !important;
+main img {
+  display: block;
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  margin: 24px auto;
+  border-radius: 12px;
+  border: 1px solid #444;
+}
+
+@media (max-width: 700px) {
+  main {
+    padding: 1rem;
+  }
+
+  main img {
+    max-width: 100%;
   }
 }
 
