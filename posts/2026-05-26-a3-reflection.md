@@ -1,3 +1,8 @@
+---
+title: "A3 Reflection: Looking Back at My Goal-Oriented Feedback Hub"
+date: "2026-05-26"
+---
+
 # A3 Reflection: Looking Back at My Goal-Oriented Feedback Hub
 
 For my final prototype, I built a goal-oriented feedback hub for students and designers who want more useful feedback on their ideas or prototypes. Users can create a post, upload a prototype image, choose what kind of feedback they want, and receive comments from other users. When I first planned the project, I mainly thought about the visible interaction: someone posts an idea, someone else gives feedback, and the original poster can read it. After building and testing it, I realised that the harder part was making the whole flow behave reliably. A feedback platform only feels meaningful if posts, images, comments and delete actions all work in a consistent way.
