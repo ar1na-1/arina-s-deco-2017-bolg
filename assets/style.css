@@ -61,3 +61,24 @@ ul.tags-list {
 ul.post-list{
     list-style: none;
 }
+
+/* Evidence images inside blog posts */
+
+main img,
+article img,
+.post img,
+.content img {
+  display: block;
+  width: 100%;
+  max-width: 760px;
+  height: auto;
+  margin: 24px auto;
+  border-radius: 12px;
+  border: 1px solid #333;
+}
+
+main p img,
+article p img {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
